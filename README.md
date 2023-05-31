@@ -1,5 +1,7 @@
 # CloudKit Syncronizer/Manager
 
+PLEASE NOTE : This is only an earlier version to the final version and needs updating for Swift 3, 4 and 5. I was also cleaned and some classes reorganized. But it worked at that point and is the only version I can present here without conflicting with the NDA.
+
 These files shows my process to create a cloud kit manager to sync the CodeData database for multiple users to the cloud and then each users' connected device will sync to the current data.
 
 Care was taken to have one database owner as to be able to remove access to data to laid off employees etc.
