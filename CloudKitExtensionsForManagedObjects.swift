@@ -10,23 +10,6 @@ import UIKit
 import CloudKit
 import CoreData
 
-//MARK:- PROTOCOL IsLargeData
-//   for NSManagedObjects that have large data NSData file to be uploaded online.
-//protocol IsLargeData {
-//    var largeData: NSData? { get set }
-//    var largeDataStoredOnline: Bool { get set }
-//}
-//
-//extension IsLargeData where Self: NSManagedObject {
-//    func getCKAsset() -> CKAsset? {
-//        return nil
-//    }
-//    func createCKAsset(fileURL: URL) -> CKAsset? {
-//        let _ckAsset = CKAsset(fileURL: fileURL)
-//        return nil
-//    }
-//}
-
 // All NSManagedObjects are extended with CloutKit extensions.
 extension NSManagedObject: CloudKitExtensionsForNSManagedObjects {
     @NSManaged public var ckRecordName: String?
